@@ -30,12 +30,4 @@ public class GameManager {
             System.out.println("GAME OVER");
         }
     }
-    public static void main(String[] args) {
-        King king = new King();
-        Knight knight = new Knight();
-        Hobbit hobbit = new Hobbit();
-        Hobbit hobbit1 = new Hobbit();
-        Elf elf = new Elf();
-        GameManager.fight(elf, king);
-    }
 }
